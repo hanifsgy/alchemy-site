@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/my-alchemy-lab", "destination": "/" },
+    { "source": "/my-alchemy-lab/(.*)", "destination": "/$1" }
+  ]
+}
